@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aa6f23c6-dd89-41f2-87f4-4cf630e41274")
+	(paper "A5")
+	(title_block
+		(title "Blaze Barometer")
+		(company "UCSC Rocket Team")
+		(comment 1 "Rachelle Wang")
+		(comment 2 "MS5611 Breakout Board with STEMMA QT Compatability")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
