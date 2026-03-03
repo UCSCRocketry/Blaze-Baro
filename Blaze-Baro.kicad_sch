@@ -222,7 +222,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Avionics_Symbols:QTStemma_F"
+		(symbol "Avionics_Symbols:QTStemma_M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -234,7 +234,7 @@
 					)
 				)
 			)
-			(property "Value" "QTStemma_F"
+			(property "Value" "QTStemma_M"
 				(at 3.048 5.588 0)
 				(effects
 					(font
@@ -269,7 +269,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "QTStemma_F_0_0"
+			(symbol "QTStemma_M_0_0"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -343,7 +343,7 @@
 					)
 				)
 			)
-			(symbol "QTStemma_F_0_1"
+			(symbol "QTStemma_M_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -4.445)
@@ -1214,6 +1214,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Avionics_Symbols:QTStemma_M")
+		(at 67.31 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c067b01-69df-474d-86ce-5c9a065a626d")
+		(property "Reference" "U1"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QTStemma_M"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7300ae5f-21af-434d-8a38-ded9b7a37ea5")
+		)
+		(pin "3"
+			(uuid "b63465e5-fd2a-40d2-9180-03c3bbf36091")
+		)
+		(pin "4"
+			(uuid "118a2431-7f3d-47cf-b73f-b1416ab40080")
+		)
+		(pin "1"
+			(uuid "d517e8fb-b49f-40f5-b52d-e79146d42388")
+		)
+		(instances
+			(project ""
+				(path "/aa6f23c6-dd89-41f2-87f4-4cf630e41274"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 59.69 0)
 		(unit 1)
@@ -1274,80 +1348,6 @@
 			(project ""
 				(path "/aa6f23c6-dd89-41f2-87f4-4cf630e41274"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Avionics_Symbols:QTStemma_F")
-		(at 67.31 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eea6951-540e-4694-889c-3b8cd86ce14e")
-		(property "Reference" "U1"
-			(at 67.31 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "QTStemma_F"
-			(at 67.31 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "749eb3ac-357e-4244-b0dd-0f368c5f6321")
-		)
-		(pin "3"
-			(uuid "5cb9e786-ed3d-4bfd-ac7d-a92df8cef37d")
-		)
-		(pin "4"
-			(uuid "02c5d69a-e586-402c-a7d2-6106e180f8da")
-		)
-		(pin "1"
-			(uuid "f1b73af2-8e07-42fa-bbc4-93b91e45d932")
-		)
-		(instances
-			(project ""
-				(path "/aa6f23c6-dd89-41f2-87f4-4cf630e41274"
-					(reference "U1")
 					(unit 1)
 				)
 			)
