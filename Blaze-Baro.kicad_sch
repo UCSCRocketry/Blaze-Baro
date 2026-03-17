@@ -1374,16 +1374,16 @@
 		(uuid "472eb072-1e23-4987-9871-f00be9ee92eb")
 	)
 	(junction
-		(at 105.41 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52c59fb1-14c6-4839-9795-988ddc2b6417")
-	)
-	(junction
 		(at 86.36 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "874690ee-0f7b-439f-87b2-d517a1dad51d")
+	)
+	(junction
+		(at 105.41 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b3a280-afbb-4d85-9a1e-2696cdb2ed11")
 	)
 	(junction
 		(at 134.62 33.02)
@@ -1429,7 +1429,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 114.3 48.26)
+			(xy 105.41 58.42) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ee8f69-6967-48e8-a0ef-66331bf5af0b")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 105.41 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1456,26 +1466,6 @@
 			(type default)
 		)
 		(uuid "6dc752d7-2d3c-4f31-9f6e-fdcd94fbdbde")
-	)
-	(wire
-		(pts
-			(xy 105.41 48.26) (xy 105.41 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ef66cd-c90a-4d19-bafe-e91ce5eb5b21")
-	)
-	(wire
-		(pts
-			(xy 86.36 48.26) (xy 105.41 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3c9e36-dfb1-4a81-99ab-a889a1bb70c0")
 	)
 	(wire
 		(pts
@@ -1579,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 48.26) (xy 105.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef38ad8a-b027-4c55-84f0-c3ebabd72cc8")
+	)
+	(wire
+		(pts
 			(xy 132.08 45.72) (xy 134.62 45.72)
 		)
 		(stroke
@@ -1586,6 +1586,16 @@
 			(type default)
 		)
 		(uuid "f8081bfe-20ac-4285-98f0-1374b5cbdce5")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d2dcc3-ff71-43f6-9621-37e3fa894311")
 	)
 	(label "SDA"
 		(at 128.27 62.23 180)
@@ -2020,7 +2030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "4.7K"
 			(at 133.35 81.28 90)
 			(effects
 				(font
@@ -2453,6 +2463,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 105.41 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aaa28ce-7005-469b-b08c-ed9b0ce89f53")
+		(property "Reference" "R5"
+			(at 99.06 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 107.95 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.426 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eb78fb2-c2ef-48e5-a62a-01fc9ec8c422")
+		)
+		(pin "1"
+			(uuid "a0ce4de9-953b-421b-adcc-fedd35460c6a")
+		)
+		(instances
+			(project "Blaze-Baro"
+				(path "/aa6f23c6-dd89-41f2-87f4-4cf630e41274"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 133.35 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2470,7 +2550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "4.7K"
 			(at 133.35 73.66 90)
 			(effects
 				(font
@@ -2606,7 +2686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 118.11 63.4999 0)
 			(effects
 				(font
