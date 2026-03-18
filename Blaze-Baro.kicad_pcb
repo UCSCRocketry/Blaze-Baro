@@ -3431,7 +3431,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.125)
 			)
 			(justify left bottom mirror)
 		)
@@ -3440,6 +3440,19 @@
 		(at 119.634 66.802 90)
 		(layer "B.SilkS")
 		(uuid "7ae0cc64-2a9f-4cc2-b4a3-c4ecf8e4ef2d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0x77"
+		(at 107.569 61.468 0)
+		(layer "B.SilkS")
+		(uuid "7d341ee7-5181-48ac-9dec-40b6624dd27d")
 		(effects
 			(font
 				(size 0.5 0.5)
